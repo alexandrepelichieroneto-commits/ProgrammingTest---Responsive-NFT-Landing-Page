@@ -346,8 +346,89 @@ body{
     .main footer .footer-links .link:first-child{
         margin: 0;
     }
-
-    /*
-    contiação minuto 39:00
-    */
 }
+
+@media screen and (max-width: 925px) {
+    .navbar .nav-links{
+        display: none;
+    }
+
+    .navbar .nav-buttons{
+        opacity: 0;
+    }
+
+    .navbar .toggler{
+        display: flex !important;
+        align-items: center;
+    }
+
+    .get-started .info-text{
+        text-align: center;
+    }
+    
+    .get-started .items-box{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        padding: 50px 0;
+    }
+
+    .get-started .items-box:before{
+        height: 200px;
+        top: 90px;
+        filter: blur(120px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .top-container{
+        margin-top: 4rem !important;
+    }
+
+    .top-container .info-box{
+        max-height: none;
+        max-width: none;
+        margin-bottom: 4rem;
+    }
+
+    .top-container .nft-box{
+        display: block;
+        max-width: none;
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        padding: 0 40px;
+    }
+
+    .footer .footer-header{
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer .footer-links{
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer .footer-links .link{
+        margin-left: 20px;
+    }
+
+    .footer .footer-links link h5{
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .footer .footer-links link p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+}
+
+
