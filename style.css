@@ -98,7 +98,7 @@ body{
     margin-right: 20px;
 }
 
-.nav-buttons.active{
+.navbar .nav-buttons.active{
     transition: all 0.3s ease;
     opacity: 1;
 }
