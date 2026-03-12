@@ -283,6 +283,17 @@ body{
     border-top: 1px solid #ccc;
 }
 
+.copyright{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ccc;
+}
+
+.copyright i{
+    font-size: 16px;
+}
+
 .main .footer .footer-header{
     max-width: 50%;
     font-weight: 500;
